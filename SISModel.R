@@ -30,7 +30,7 @@ for (steps in 1:2000) {
     If<-max(If,0)
 }
 plot(Sm.hist,type="l", ylim=c(0,14000))
-lines(Sf.hist,col="l1")
+lines(Sf.hist,col="2")
 lines(Im.hist,col=3)
 lines(If.hist,col=4)
 
